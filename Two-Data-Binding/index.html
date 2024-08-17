@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div data-ng-app="" data-ng-init="quantity=1;price=50">
+    <h2>Calculate Cost</h2>
+    Qunatity<input type="number" ng-model="quantity">
+    Price<input type="number" ng-model="price">
+    <p><b>Total Amount:</b>{{quantity*price}}</p>
+</div>   
+
+    
+</body>
+</html>
